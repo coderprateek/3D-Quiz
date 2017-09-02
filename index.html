@@ -86,8 +86,8 @@
         <a-text value="London" position="-1.5 0 -37.5" color="black" width="13"></a-text>
         <a-box  id="s44"  position="-0.5 0 -37.5" rotation="0 0 0" scale="2 1 0"  color="white"></a-box>
 
-       --fourth box--
-       --fifth box--
+       <!--fourth box-->
+       <!--fifth box-->
        <a-plane  position="1.59 2 -49" rotation="0 0 0" scale="10 10" src="#p5" ></a-plane>
        <a-plane  position="-3.41 2 -44" rotation="0 90 0" scale="10 10" src="#p1"  ></a-plane>
        <a-plane  position="6.59 2 -44" rotation="0 -90 0" scale="10 10" src="#p3" ></a-plane>
@@ -107,35 +107,37 @@
         <a-text value="got sick" position="3.4 0 -46.5" color="white" width="10"></a-text>
         <a-box  id="s54"  position="4.2 0 -46.5" rotation="0 0 0" scale="1.8 1 0"  color="#AA0000"></a-box>
 
-       --fifth box--
-       --sixth box--
+       <!--fifth box-->
+       <!--sixth box-->
        <a-plane  position="1.59 2 -59" rotation="0 0 0" scale="10 10" src="#p5" ></a-plane>
        <a-plane  position="-3.41 2 -54" rotation="0 90 0" scale="10 10" src="#p1"  ></a-plane>
        <a-plane  position="6.59 2 -54" rotation="0 -90 0" scale="10 10" src="#p3" ></a-plane>
        <a-plane  position="1.59 7 -54" rotation="90 0 0" scale="10 10" src="#p4" ></a-plane>
        <a-plane  position="1.59 -3 -54" rotation="-90 0 0" scale="10 10" src="#p4" ></a-plane>
        <a-plane  position="1.59 2 -49" rotation="0 180 0" scale="10 10" color="blue" ></a-plane>
-       
-
-       --sixth box--
-       --seventh box--
+       <a-text value="You are a big fan " position="-1.75 5.5 -56.5" width="13" color="black"></a-text>
+       <a-text value="Congratulatons!" position="0.5 2.5 -56.5" width="13" color="#8767bf"></a-text>
+       <a-text value="of Emma Watson" position="1.25 0.5 -56.5" width="13" color="black"></a-text>
+       <!--sixth box-->
+       <!--seventh box-->
        <a-plane  position="1.59 2 -69" rotation="0 0 0" scale="10 10" src="#p5" ></a-plane>
        <a-plane  position="-3.41 2 -64" rotation="0 90 0" scale="10 10" src="#p1"  ></a-plane>
        <a-plane  position="6.59 2 -64" rotation="0 -90 0" scale="10 10" src="#p3" ></a-plane>
        <a-plane  position="1.59 7 -64" rotation="90 0 0" scale="10 10" src="#p4" ></a-plane>
        <a-plane  position="1.59 -3 -64" rotation="-90 0 0" scale="10 10" src="#p4" ></a-plane>
        <a-plane  position="1.59 2 -59" rotation="0 180 0" scale="10 10" color="blue" ></a-plane>
-       --seventh box--
-       --eighth box--
+
+       <!--seventh box-->
+       <!--eighth box-->
        <a-plane  position="1.59 2 -79" rotation="0 0 0" scale="10 10" src="#p5" ></a-plane>
        <a-plane  position="-3.41 2 -74" rotation="0 90 0" scale="10 10" src="#p1"  ></a-plane>
        <a-plane  position="6.59 2 -74" rotation="0 -90 0" scale="10 10" src="#p3" ></a-plane>
        <a-plane  position="1.59 7 -74" rotation="90 0 0" scale="10 10" src="#p4" ></a-plane>
        <a-plane  position="1.59 -3 -74" rotation="-90 0 0" scale="10 10" src="#p4" ></a-plane>
        <a-plane  position="1.59 2 -69" rotation="0 180 0" scale="10 10" color="blue" ></a-plane>
-       <a-text value="Sorry you failed" position "0 2 -77" color="black" width="13"></a-text>
-       <a-text value="Wait for sometime" position "0 1 -77" color="black" width="13"></a-text>  
-       --eighth box--
+       <a-text value="You chose wrong answer" position ="-1.75 5 -77" color="black" width="13"></a-text>
+       <a-text value="Wait for sometime" position= "0 1 -77" color="black" width="13"></a-text>  
+       <!--eighth box-->
        
     </a-scene>
     <script>
@@ -379,6 +381,73 @@
         y : 3,
         z : -31
        } ); }, 8000);
+   
+    });
+  box14.addEventListener( 'mouseenter', function ( )
+    {
+      camera.setAttribute( 'position',
+      {
+        x : 2.2,
+        y : 3,
+        z : -71
+       } );
+       setTimeout(function(){  camera.setAttribute( 'position',
+      {
+       x : 2.2,
+        y : 3,
+        z : -41
+       } ); }, 5000);
+   
+    });
+
+  box15.addEventListener( 'mouseenter', function ( )
+    {
+      camera.setAttribute( 'position',
+      {
+        x : 2.2,
+        y : 3,
+        z : -51
+       } );
+        setTimeout(function(){  camera.setAttribute( 'position',
+      {
+       x : 2.2,
+        y : 3,
+        z : -1
+       } ); }, 12000);
+   
+       
+    });
+
+ box16.addEventListener( 'mouseenter', function ( )
+    {
+      camera.setAttribute( 'position',
+      {
+        x : 2.2,
+        y : 3,
+        z : -71
+       } );
+       setTimeout(function(){  camera.setAttribute( 'position',
+      {
+       x : 2.2,
+        y : 3,
+        z : -41
+       } ); }, 5000);
+   
+    });
+ box17.addEventListener( 'mouseenter', function ( )
+    {
+      camera.setAttribute( 'position',
+      {
+        x : 2.2,
+        y : 3,
+        z : -71
+       } );
+       setTimeout(function(){  camera.setAttribute( 'position',
+      {
+       x : 2.2,
+        y : 3,
+        z : -41
+       } ); }, 5000);
    
     });
 </script>
